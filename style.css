@@ -1,0 +1,186 @@
+body{
+    background: #F3F5FC;
+    font-family: 'Inter', sans-serif;
+}
+
+.logo{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    gap: 40px;
+}
+
+form{
+    position: absolute;
+    top: 160px;
+    left: 240px;
+}
+
+.input{
+    background: #F3F5FC;
+    border:0;
+    resize: none;
+    font-weight: 400;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    color: #0A3871;
+    text-align: left;
+}
+
+.input:focus{
+    outline: none;
+}
+.input::placeholder{
+    color: #0A3871;
+}
+
+.frame1{
+    margin-bottom: 1em;
+}
+
+.exclamation-circle{
+    float: left;
+    margin:0 0.5em;
+}
+
+.frame1 p{
+    color: #495057;
+    line-height: 18px;
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 80%;
+}
+
+.encriptar{
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    gap: 8px;
+    background: #0A3871;
+    color: white;
+    font-size: 16px;
+    border: 0;
+    margin-right: 1em;
+    transition: 500ms;
+}
+
+.encriptar:hover{
+    background: #072B61;
+    cursor: pointer;
+}
+
+.desencriptar{
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    gap: 8px;
+    background: #D8DFE8;
+    color: #0A3871;
+    font-size: 16px;
+    border: 1px solid #0A3871;
+    transition: 500ms;
+}
+
+.desencriptar:hover{
+    background: #F3F5FC;
+    cursor: pointer;
+} 
+
+.rectangulo{
+    position: absolute;
+    width: 400px;
+    height: 825px;
+    top: 40px;
+    left: 1000px;
+    border-radius: 32px;
+    background: white;
+    display: flex;
+}
+
+.not-found{
+    margin: auto;
+    display: block;
+}
+
+.doll{
+    text-align: center;
+}
+
+.not-found h2{
+    width: 60%;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #343A40;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.not-found > p{
+    width: 80%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #495057;
+    margin: auto;
+}
+
+.output{
+    font-size: 24px;
+    text-align: left;
+    position: relative;
+    width: 80%;
+    margin: 1em auto;
+    height: 100%;
+    display: none;
+}
+
+.text{
+    color: #495057;
+    height: 85%;
+    overflow: auto;
+}
+ 
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px grey; 
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background: #0A3871; 
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #072B61; 
+}
+
+.copiar{
+    margin: 1em auto;
+    width: 336px;
+    height: 67px;
+    top: 885px;
+    left: 1032px;
+    padding: 24px;
+    border-radius: 24px;
+    gap: 8px;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    background: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    cursor: pointer;
+}
